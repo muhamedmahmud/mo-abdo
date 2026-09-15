@@ -564,7 +564,6 @@ body {
     background: var(--secondary-color);
     border: 1px solid rgba(168, 85, 247, 0.2);
     transition: var(--transition);
-    group: 1;
 }
 
 .portfolio-item:hover {
@@ -580,6 +579,11 @@ body {
     height: 0;
     overflow: hidden;
     border-radius: 8px;
+}
+
+.portfolio-item.video-short .video-wrapper {
+    padding-bottom: 177.78%;
+    aspect-ratio: 9 / 16;
 }
 
 .video-wrapper iframe {
